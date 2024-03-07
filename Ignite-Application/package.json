@@ -1,21 +1,16 @@
 {
   "name": "ignite-application",
   "version": "1.0.0",
-  "description": "Igniteing Our App",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
-    "build":"parcel build index.html",
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "(https://github.com/Manish-dev3490/Namastey-React-JS)"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.12.0"
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^18.2.0",
