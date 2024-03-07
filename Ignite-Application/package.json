@@ -1,0 +1,24 @@
+{
+  "name": "ignite-application",
+  "version": "1.0.0",
+  "description": "Igniteing Our App",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build":"parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Manish-dev3490/Namastey-React-JS)"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
