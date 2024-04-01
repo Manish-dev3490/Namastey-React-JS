@@ -17,7 +17,12 @@ const Makeheading = function () {
 
 
 const Makesubheading = () => {
-    return secondHeading;
+ return  (
+  <div className="containter-two">
+    <Makeheading/>
+    <h2>Hello ji</h2>
+  </div>
+ )
 }
-root.render(<Makeheading/>);
+root.render(<Makesubheading/>);
 
