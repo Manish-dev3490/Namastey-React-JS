@@ -11,11 +11,12 @@ const secondHeading = <h1 className="heading"> Hello I am writing JSX again</h1>
 
 
 // understanding function based commponents
-const Makeheading = function () {
+const Makeheading =  ()=>{
     return firstHeading;
 }
 
 
+// component composition
 const Makesubheading = () => {
  return  (
   <div className="containter-two">
