@@ -5,3 +5,28 @@
     box-sizing: border-box;
 }
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(247, 144, 107);
+    padding-inline:30px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-size: 20px;
+}
+.nav-items li{
+    font-size: 1rrem;
+    cursor: pointer;
+    color: white;
+}
+.logo-box h2{
+    font-size: 1.8rem;
+    color: black;
+}
