@@ -33,16 +33,20 @@ const Headercomponent = () => {
 
 
 // lets make the reastuarent card commponent which we have to re use again and again with static and dynamic data
-const Restacard=()=>{
+const Restacard=({cuisine,ratings,style,locaton})=>{
+
+
+
     return(
         <div className="resta-card">
             <img src="https://img.freepik.com/free-photo/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese_90220-1063.jpg"></img>
 
+
             <div className="info-section">
-                <h2>Chinese Wok</h2>
-                <h3>3.8 <i class="ri-star-fill"></i>    20-25 min</h3>
-                <p>Chinese,Asian,Tibetan</p>
-                <p>Rajouri Garden</p>
+                <h2>{cuisine}</h2>
+                <h3>{ratings} <i class="ri-star-fill"></i>    20-25 min</h3>
+                <p>{style}</p>
+                <p>{locaton}</p>
             </div>
         </div>
     )
@@ -59,15 +63,15 @@ const BodyComponent = () => {
             </div>
 
             <div className="restaurent-box">
-                <Restacard/>
-                <Restacard/>
-                <Restacard/>
-                <Restacard/>
-                <Restacard/>
-                <Restacard/>
-                <Restacard/>
-                <Restacard/>
-                <Restacard/>
+                <Restacard cuisine="Chinese Wok" ratings="4" style="Chinese,Asian,Tibetan" locaton="Rajouri Garden"/>
+                <Restacard cuisine="Italiian Wok" ratings="4" style="Chinese,Asian,Tibetan" locaton="Rajouri Garden"/>
+                <Restacard cuisine="Indian Wok" ratings="4" style="Chinese,Asian,Tibetan" locaton="Rajouri Garden"/>
+                <Restacard cuisine="Northern Wok" ratings="4" style="Chinese,Asian,Tibetan" locaton="Rajouri Garden"/>
+                <Restacard cuisine="Japnese  Wok" ratings="4" style="Chinese,Asian,Tibetan" locaton="Rajouri Garden"/>
+                <Restacard cuisine="Chinese Wok" ratings="4" style="Chinese,Asian,Tibetan" locaton="Rajouri Garden"/>
+                <Restacard cuisine="Korean Wok" ratings="4" style="Chinese,Asian,Tibetan" locaton="Rajouri Garden"/>
+                <Restacard cuisine="singapuri Wok" ratings="4" style="Chinese,Asian,Tibetan" locaton="Rajouri Garden"/>
+                <Restacard cuisine="Thai Wok" ratings="4" style="Chinese,Asian,Tibetan" locaton="Rajouri Garden"/>
 
             </div>
 
